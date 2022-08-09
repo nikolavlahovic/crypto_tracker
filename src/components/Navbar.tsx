@@ -1,9 +1,9 @@
-import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 function Navbar() {
-  const navigate = useNavigate();
   return (
-    <div>
-      <a href={"/favorites"}> favorites </a>
+    <div className="navbar nav-links">
+      <NavLink to={"/home"}>Home</NavLink>
+      <NavLink to={"/favorites"}>Favorites</NavLink>
     </div>
   );
 }

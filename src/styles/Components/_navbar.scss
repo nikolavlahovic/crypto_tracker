@@ -1,0 +1,14 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,0.2);
+    padding: 0.5rem 0.5rem;
+}
+.nav-links{
+    display: flex;
+    gap: 1rem;
+    & a{
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+}
