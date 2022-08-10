@@ -1,5 +1,11 @@
+import { useEffect, useState } from "react";
+
 function Favorites() {
-  return <div>Favorites</div>;
+  return (
+    <div>
+      <p>favorites</p>
+    </div>
+  );
 }
 
 export default Favorites;
